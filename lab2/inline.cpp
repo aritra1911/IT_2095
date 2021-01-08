@@ -1,5 +1,5 @@
 /*
- * Write a program to implement inline functions.
+ * 4. Write a program to implement inline functions.
  */
 
 #include <iostream>

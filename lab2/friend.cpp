@@ -1,5 +1,5 @@
 /*
- * Write a program to implement friend function / friend class for:
+ * 5. Write a program to implement friend function / friend class for:
  * (a) Pure friend function
  * (b) Friend class
  * (c) A specific member function of a class that can access the private data of another class
@@ -14,7 +14,7 @@ class Alice {
 
     public:
     void get_value() {
-        std::cout << "Alice: Enter value of x: ";
+        std::cout << "<Alice> Enter value of x: ";
         std::cin >> x;
     }
 
@@ -30,16 +30,16 @@ class Bob {
 
     public:
     void get_value() {
-        std::cout << "Bob: Enter value of y: ";
+        std::cout << "<Bob> Enter value of y: ";
         std::cin >> y;
     }
 
     void show(void) {
-        std::cout << "Bob: y = " << y << std::endl;
+        std::cout << "<Bob> y = " << y << std::endl;
     }
 
     void showAlice(Alice a) {
-        std::cout << "Bob: x = " << a.x << std::endl;
+        std::cout << "<Bob> x = " << a.x << std::endl;
     }
 
     friend void Alice::showBob(Bob);
@@ -71,5 +71,5 @@ void show(Alice a) {
 }
 
 void Alice::showBob(Bob b) {
-    std::cout << "Alice: y = " << b.y << std::endl;
+    std::cout << "<Alice> y = " << b.y << std::endl;
 }

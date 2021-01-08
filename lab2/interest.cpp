@@ -1,5 +1,5 @@
 /*
- * Write a program to implement default argument in function while calculating the simple interest with parameters:
+ * 3. Write a program to implement default argument in function while calculating the simple interest with parameters:
  * principal amount, rate of interest, and time. Assign default value of 8.5 to rate of interest.
  */
 

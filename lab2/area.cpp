@@ -1,5 +1,5 @@
 /*
- * Writea a program to implement function overloading while calculating area of a triangle, circle and rectangle.
+ * 2. Write a program to implement function overloading while calculating area of a triangle, circle and rectangle.
  */
 
 #include <iostream>
