@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%% Define your header here.
+%% See http://texblog.org/2007/11/07/headerfooter-in-latex-with-fancyhdr/
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+
+\usepackage[usenames,dvipsnames]{color}  %% Allow color names
+\definecolor{dark-gray}{gray}{0.12}
+
+%% The listings package will format your source code
+\usepackage{listings}
+\lstdefinestyle{customasm}{
+  belowcaptionskip=1\baselineskip,
+  xleftmargin=\parindent,
+  language=C++,
+  numberstyle=\ttfamily,
+  numbers=left,
+  stepnumber=1,
+  breaklines=true, %% Wrap long lines
+  basicstyle=\footnotesize\ttfamily,
+  commentstyle=\itshape\color{PineGreen},
+  stringstyle=\color{Sepia},
+  keywordstyle=\bfseries\color{NavyBlue},
+  identifierstyle=\color{dark-gray},
+  xleftmargin=-8em,
+  xrightmargin=-8em,
+  showstringspaces=false
+}
+
+\title{Lab N}
+\author{Aritra Sarkar\\Roll No. 1930012}
+\date{\today}
+
+
+\begin{document}
+\maketitle
+\fancyhead[CO,CE]{Lab N}
+\fancyhead[LE,LO]{file.cpp}
+\fancyhead[RE,RO]{\thepage}
+\fancyfoot[CO,CE]{Lab N}
+\fancyfoot[LE,LO]{file.cpp}
+\fancyfoot[RE,RO]{\thepage}
+\lstinputlisting[style=customasm]{path/to/file.cpp}
+\end{document}
