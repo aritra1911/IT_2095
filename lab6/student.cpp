@@ -1,3 +1,8 @@
+/*
+ * [1] Define the following classes and implement the inheritance structure to remove ambiguity in this multipath
+ * inheritance.
+ */
+
 #include <iostream>
 using namespace std;
 

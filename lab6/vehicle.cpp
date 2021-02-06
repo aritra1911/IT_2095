@@ -1,3 +1,8 @@
+/*
+ * [3] Define the following classes and implement the inheritance structure.
+ *                  (All the data members are protected)
+ */
+
 #include <iostream>
 
 class Vehicle {

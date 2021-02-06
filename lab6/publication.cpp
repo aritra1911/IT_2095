@@ -1,3 +1,8 @@
+/*
+ * [2] Define the following classes and implement the inheritance structure.
+ *                    (All data members are private)
+ */
+
 #include <iostream>
 #include <cstring>
 
