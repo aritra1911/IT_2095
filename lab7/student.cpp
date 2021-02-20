@@ -2,13 +2,13 @@
  * Q5)
  * Class Student
  *       roll,name,sub
- * 
+ *
  * Class Mark derived from Student
  *       labRec,Quiz,Viva
- * 
+ *
  * Class Cont_Eva
  * 	C1,C2
- * 
+ *
  * Class Result derived from Mark and Cont_Eva
  * 	Input marks are out of 20, display the total marks and CGPA from Result class object.
  */
@@ -63,7 +63,8 @@ class Result : private Mark, private Cont_Eva {
 
     void display(void) {
         float total_marks = labRec + quiz + viva + C1 + C2;
-        std::cout << "Name : " << name << std::endl
+        std::cout << "Roll No. : " << roll << std::endl
+                  << "Name : " << name << std::endl
                   << "Subject : " << sub << std::endl
                   << "Total Marks : " << total_marks << std::endl
                   << "CGPA : " << (total_marks * 10.0f / (5.0f * 20.0f)) << std::endl;

@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import os, re, sys
 
 TEMPLATE = 'report.tex'
