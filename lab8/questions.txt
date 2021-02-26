@@ -1,0 +1,13 @@
+Lab Assignment for 26th Feb
+
+Q1) Write a C++ program which will demonstrate overloading of unary minus operator.
+
+Q2) Define a class PLUS having two integer member variables .use constructor to initialize the variables. Create two objects of the class and overload the binary + operator to display the sum of two objects in complex number format.
+
+Q3) WAP to demonstrate Post and pre increment operators using operator function as well as friend function.
+
+Q4)Create a class Date with data members DD, MM, YY, take the date from user .Increment the date by 1 using operator overloading. If its the end of month display the proper next date with month.
+
+Q5)Create a Class TwoD with data members x_co and y_co,take the values of two co-ordinates from the user and find the distance between two points by using operator overloading.
+
+Q6)Write a program to demonstrate the insertion and extraction operator overloading.
