@@ -1,0 +1,15 @@
+Assignments for 12th March 2021
+Q1) Create a class Yourroll_Polygon with data member roll_height and roll_width and a member function roll_setData(). Rectangle and Triangle are two classes and both having derived from Yourroll_Polygon. Set values for both derived classes and display the area() by derived class object.
+
+Q2) Solve the above Q1 by showing the area() by base class object.
+
+Q3) Create a class Account which stores account number, customer name and balance. Derive two
+classes   ‘Savings’ and ‘Current’ from ‘Account’ class:  The ‘Savings’ class has a minimum balance of rs 1000. The ‘Current’ class has a min balance amount of rs 5000. Include member functions in the appropriate class for
+-deposit money
+-withdraw (minimum balance should be checked)
+-display balance
+Display data from each class using virtual function.
+
+Q4) Write a simple code to demonstrate use of pure virtual function and abstract base class.
+Q5) Create a class called House. OneBHK and TwoBHK are two classes inherited from House with data members of data members length height and width of evry room. . Area (), Volume() are functions to find area of individual room .Total_area() and Total_Volume() are functions to calculate area of  total area and total volume of the houses .Write the code using pure virtual function.
+Note: Class Names should be last 3 digit of roll no_givenName
