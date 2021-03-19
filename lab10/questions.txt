@@ -1,0 +1,9 @@
+Assignment for 19th March 2021
+Q1) Create a class which stores employee name,id and salary Derive two classes from Employee class: ‘Regular’ and ‘Part-Time’. The ‘Regular’ class stores DA, HRA and basic salary. The ‘Part-Time’ class stores the number of hours and pay per hour. Calculate the salary of a regular employee and a part-time employee, using virtual function.
+
+Q2) Write a C++ code to demonstrate constructor, virtual function, a pure virtual function and virtual destructor.
+
+Q3) Create an abstract class Student. IT , CSE , and CSCE are 3 classes derived from Student, Input the student Details ( roll , name, branch, section) and display the details using base class array of pointers.
+Note: All display functions should display the data using manipulators.
+Q4) Write a program to overload [ ] for a string object to get the particular character with a given string value.
+Q5) Illustrate the use of an Abstract class.
