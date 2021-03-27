@@ -1,0 +1,14 @@
+$ g++ parent_child.cpp
+$ ./a.out
+Enter parent's age: -4
+Enter child's age: 5
+Parent's age cannot be negative!
+$ ./a.out
+Enter parent's age: 34
+Enter child's age: 40
+Child cannot be older than parent!
+$ ./a.out
+Enter parent's age: 34
+Enter child's age: 9
+Parent's Age : 34
+Child's Age : 9

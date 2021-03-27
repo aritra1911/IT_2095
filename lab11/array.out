@@ -1,0 +1,5 @@
+$ g++ array.cpp
+$ ./a.out
+a[0] : 15
+a[3] : 24
+Index Out Of Bounds!

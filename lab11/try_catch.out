@@ -1,0 +1,5 @@
+$ g++ try_catch.cpp
+$ ./a.out
+UserDefinedException caught!
+Rethrowing...
+Generalized exception caught!

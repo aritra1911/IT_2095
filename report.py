@@ -43,10 +43,22 @@ def write_body(output_file, body):
         else:
             output_file.write('\\newpage\n')
 
+        # For source
         for line in body:
             output_file.write(line.replace('Lab N', 'Lab ' + LAB)
+                                  .replace('yourstylehere', 'customcpp')
                                   .replace('path/to/file.cpp', PATH(file))
                                   .replace('file.cpp', file.replace('_', '\_')))
+
+        # Create new page for output
+        output_file.write('\\newpage\n')
+
+        # For output
+        for line in body:
+            output_file.write(line.replace('Lab N', 'Lab ' + LAB)
+                                  .replace('yourstylehere', 'customout')
+                                  .replace('path/to/file.cpp', PATH(file)[:-3] + 'out')
+                                  .replace('file.cpp', 'output[' + file.replace('_', '\_') + ']'))
 
 def get_files_with_priority(files):
     files_with_priority = list()

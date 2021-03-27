@@ -11,7 +11,7 @@
 
 %% The listings package will format your source code
 \usepackage{listings}
-\lstdefinestyle{customasm}{
+\lstdefinestyle{customcpp}{
   belowcaptionskip=1\baselineskip,
   xleftmargin=\parindent,
   language=C++,
@@ -23,6 +23,19 @@
   commentstyle=\itshape\color{PineGreen},
   stringstyle=\color{Sepia},
   keywordstyle=\bfseries\color{NavyBlue},
+  identifierstyle=\color{dark-gray},
+  xleftmargin=-8em,
+  xrightmargin=-8em,
+  showstringspaces=false
+}
+
+\lstdefinestyle{customout}{
+  belowcaptionskip=1\baselineskip,
+  xleftmargin=\parindent,
+  language=bash,
+  numbers=none,
+  breaklines=true, %% Wrap long lines
+  basicstyle=\footnotesize\ttfamily,
   identifierstyle=\color{dark-gray},
   xleftmargin=-8em,
   xrightmargin=-8em,
@@ -42,5 +55,5 @@
 \fancyfoot[CO,CE]{Lab N}
 \fancyfoot[LE,LO]{file.cpp}
 \fancyfoot[RE,RO]{\thepage}
-\lstinputlisting[style=customasm]{path/to/file.cpp}
+\lstinputlisting[style=yourstylehere]{path/to/file.cpp}
 \end{document}

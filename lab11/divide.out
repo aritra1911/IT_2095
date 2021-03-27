@@ -1,0 +1,7 @@
+$ g++ divide.cpp
+$ ./a.out
+Enter operands of division: 3 0
+Result : Cannot divide when divisor is zero.
+$ ./a.out
+Enter operands of division: 4 2
+Result : 2
